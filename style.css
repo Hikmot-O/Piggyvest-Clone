@@ -1,0 +1,23 @@
+.header nav {
+  display: flex;
+  justify-content: space-between;
+}
+.header li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.header nav ul{
+  display: flex;
+  gap: 2rem;
+  /* justify-content: space-between; */
+  align-items: center;
+
+}
+
+.header .container-2{
+  color: red;
+  display: flex;
+  align-items: center;
+}
