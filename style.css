@@ -1,5 +1,7 @@
+@import url(//db.onlinewebfonts.com/c/7017698b5c5a2cc397cd3b0c0984d76f?family=U8);
+
 body{
-  font-family: DM Sans,sans-serif;
+  font-family: DM Sans, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,7 +10,7 @@ html{
   font-size: 62.5%;
 }
 .header{
-  position: fixed;
+  /* margin-bottom: 4rem; */
 }
 .logo{
   width: 17.5rem;
@@ -16,25 +18,32 @@ html{
   margin: 0;
 }
 .header nav {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  right: 0;
   font-weight: 500;
   display: flex;
   justify-content: center;
   gap: 30rem;
-  margin-top: 1.5rem;
-  /* background: #fff; */
-  /* position: fixed; */
+  background: #fff;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  box-shadow: 0 0 7px 0 #ced3da;
+  margin: 0;
 }
 .header li {
   list-style: none;
 }
-a {
+a {color: #0c1825;
   text-decoration: none;
-  color: #0c1825;
   font-size: 16.5px;
 }
 .header nav ul{
   display: flex;
   align-items: center;
+  margin: 0;
 }
 .container-1 ul{
   gap: 5rem;
@@ -60,4 +69,130 @@ a {
 .btn-filled{
   background-color: #0c1825;
   color: #fff;
+}
+
+.home-section{
+  margin: 20rem 15rem 10rem 15rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 25rem; */
+  /* max-width: 1165px; */
+}
+.title{
+  color: #0c1825;
+  font-family: U8, sans-serif;
+}
+h1{
+  font-size: 6.5rem;
+  line-height: 8.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+p{
+  font-size: 1.65rem;
+  color: #353535;
+  margin: 1rem 0 4rem 0;
+  line-height: 2.72rem;
+}
+.get-on-btns{
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: 5rem;
+}
+.get-on-btn{
+  margin: 0;
+  border-radius: 12px;
+  padding: 0rem 1.3rem !important;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  font-size: 1.4rem;
+  color: #0c1825;
+  height: 4.86rem;
+  /* justify-content: center; */
+}
+.get-on-logo{
+  margin: 0;
+  padding: 0;
+}
+
+.home-img-frame{
+  margin-right: 9rem;
+  position: relative;
+  top: -2.5rem 
+}
+.home-img{
+  position: absolute;
+  right: 29rem;
+  /* top: 1rem; */
+  top: 21.2rem;
+}
+.card-icon{
+  position: absolute;
+  width: 21.5rem;
+}
+.rent-icon{
+  top: 34rem;
+  right: 53.5rem;
+}
+.investify-icon{
+  top: 58.8rem;
+  right: 18rem;
+}
+.header-icon{
+  position: absolute;
+}
+.circle{
+  top: 33rem;
+  right: 27rem;
+}
+.cross{
+  top: 17.6rem;
+  right: 61.5rem;
+}
+.dot{
+  right: 63.5rem;
+  top: 52.5rem;
+}
+
+.security-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  padding: 13rem 0 7rem 0;
+
+}
+h2{
+  margin: 0;
+  font-size: 33px;
+  font-family: U8, sans-serif;
+}
+.security-section p{
+  font-size: 1.55rem;
+  margin:  1rem 0 2.5rem 0;
+}
+.security-section a{
+  color: #0d60d8;
+  font-weight: 500;
+}
+.security-icon{
+  width: 10rem;
+}
+
+.card{
+  background: #f9f9f9;
+  border-radius: 2rem;
+  padding: 2rem;
+  width: 30rem;
+}
+.save-icon{
+  width: 5rem;
+}
+.icon-text{
+  display: flex;
+  align-items: center;
+
 }
