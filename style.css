@@ -184,7 +184,7 @@ h2{
 
 .save-section{
   display: flex;
-  /* justify-content: ; */
+  justify-content: space-between;
   padding-left: 15rem;
   padding-right: calc(15rem - 1.5rem);
 }
@@ -192,18 +192,11 @@ h2{
   font-size: 3.8rem;
 }
 .save-text{
-  /* width: 100% - calc(100% /2 - (3 * 2.58875rem + 1.5rem)); */
-  /* width: calc(385.78px - 4.5rem); */
+  width: 50%;
 }
 .save-cards{
   display: flex;
-  /* width: 75rem; */
-  /* width: calc(30rem * 2 + 4*2.58875rem); */
-  /* width: 100%; */
-  width: calc(100% - 385.78px /2);
-  /* width: calc((2 * 340.78) */
-  /* justify-content: space-between; */
-  /* flex-direction: column; */
+  justify-content: flex-end;
   flex-wrap: wrap;
 }
 .safelock, .flex-naira{
